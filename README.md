@@ -116,7 +116,4 @@ o	Detailed logging throughout the lifecycle—from process creation and DLL load
 o	The design ensures that after execution, all modifications are cleaned up, and the process terminates by itself, closely mimicking a real-world attack scenario where the attacker’s payload self-destructs after completing its objective.
 •	Forward Compatibility with Detection Engine:
 o	The design leaves room for future integration with a detection engine that will run concurrently to monitor for anomalies and support forensic analysis.
-This comprehensive design provides a clear blueprint for building the POC framework and serves as a foundation for further enhancements and integration of additional modules such as the detection engine.
-________________________________________
-This revised design document should now serve as an accurate representation of the current implementation strategy and guide the development of subsequent components.
 
